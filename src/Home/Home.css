@@ -1,0 +1,113 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  background: #f4f7fa;
+  min-height: 100vh;
+}
+
+.home-header {
+  margin-bottom: 2rem;
+}
+
+.home-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.home-header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Search Form */
+.search-form {
+  background: white;
+  padding: 1.5rem;
+  margin: 0 auto 2rem auto;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #0077ff;
+}
+
+.search-btn {
+  width: 100%;
+  padding: 0.7rem;
+  background: #0077ff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-btn:hover {
+  background: #005fcc;
+}
+
+/* Cards Section */
+.home-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card button {
+  padding: 0.6rem 1.2rem;
+  background: #0077ff;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #005fcc;
+}
