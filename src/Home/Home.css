@@ -2,31 +2,20 @@
   text-align: center;
   padding: 2rem;
   min-height: 100vh;
-
-  /* ✅ Background image */
-  background: url("https://thumbs.dreamstime.com/z/smart-transportation-concept-person-tracking-public-bus-routes-279864784.jpg?ct=jpeg")
-    no-repeat center center/cover;
+  background: #f4f7fa; /* ✅ Light theme background */
   position: relative;
 }
 
-/* ✅ Light overlay */
+/* ✅ Remove overlay since no image */
 .home-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.65); /* light theme */
-  z-index: 0;
+  display: none;
 }
 
 .home-header,
 .search-form,
-.home-content,
-.results {
+.home-content {
   position: relative;
-  z-index: 1; /* Keep content above overlay */
+  z-index: 1; /* Keep content styled properly */
 }
 
 .home-header {
@@ -35,13 +24,12 @@
 
 .home-header h1 {
   font-size: 2rem;
-  color: #222; /* darker */
-  font-weight: bold;
+  color: #333;
 }
 
 .home-header p {
   font-size: 1rem;
-  color: #444; /* darker */
+  color: #666;
 }
 
 /* Search Form */
@@ -64,7 +52,7 @@
   display: block;
   font-size: 0.9rem;
   margin-bottom: 0.3rem;
-  color: #333; /* darker */
+  color: #555;
 }
 
 .form-group input {
@@ -114,12 +102,11 @@
 .card h2 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: #222; /* darker */
-  font-weight: bold;
+  color: #222; /* ✅ Darker text for clarity */
 }
 
 .card p {
-  color: #333; /* darker */
+  color: #333; /* ✅ Darker text */
   margin-bottom: 1rem;
 }
 
@@ -136,39 +123,4 @@
 
 .card button:hover {
   background: #005fcc;
-}
-
-/* ✅ Results Section (bus details) */
-.results {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin: 2rem auto;
-  width: 80%;
-  max-width: 800px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-  text-align: center;
-}
-
-.results h2 {
-  font-size: 1.5rem;
-  color: #111;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.bus-card h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #111;
-}
-
-.bus-card p {
-  color: #222;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.bus-card strong {
-  color: #000;
 }
