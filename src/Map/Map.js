@@ -44,7 +44,7 @@ const Map = () => {
       {/* ✅ Back Button */}
       <div style={{ textAlign: "center", marginTop: "10px" }}>
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/home")}
           style={{
             padding: "10px 20px",
             backgroundColor: "#007bff",
