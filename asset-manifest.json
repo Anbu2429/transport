@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/transportbus/static/css/main.81aa4732.css",
-    "main.js": "/transportbus/static/js/main.0f95e420.js",
-    "static/js/453.183908db.chunk.js": "/transportbus/static/js/453.183908db.chunk.js",
-    "index.html": "/transportbus/index.html",
-    "main.81aa4732.css.map": "/transportbus/static/css/main.81aa4732.css.map",
-    "main.0f95e420.js.map": "/transportbus/static/js/main.0f95e420.js.map",
-    "453.183908db.chunk.js.map": "/transportbus/static/js/453.183908db.chunk.js.map"
+    "main.css": "/transport/static/css/main.f7fa7caa.css",
+    "main.js": "/transport/static/js/main.d14abef4.js",
+    "static/js/453.183908db.chunk.js": "/transport/static/js/453.183908db.chunk.js",
+    "index.html": "/transport/index.html",
+    "main.f7fa7caa.css.map": "/transport/static/css/main.f7fa7caa.css.map",
+    "main.d14abef4.js.map": "/transport/static/js/main.d14abef4.js.map",
+    "453.183908db.chunk.js.map": "/transport/static/js/453.183908db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81aa4732.css",
-    "static/js/main.0f95e420.js"
+    "static/css/main.f7fa7caa.css",
+    "static/js/main.d14abef4.js"
   ]
 }
